@@ -1,0 +1,213 @@
+body, html {
+    background-color: #050505fd;
+    color: #fff;
+     font-family: "Trebuchet MS", sans-serif;
+}
+
+nav {
+    color: #fff;
+}
+
+.img-fluid  {
+    height: 300px;
+    width: 300px;
+    border: 4px solid rgb(253, 253, 253);
+   
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.bg-custom {
+  background-color: #353033; /* Warna kustom */
+}
+
+.zoom {
+    transition: transform 0.5s ease;
+}
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.btn-purple {
+  background-color: #6f1fd6;
+  color: #fff;
+  border: none;
+    transition: transform 250ms;
+}
+
+.btn-purple:hover {
+  background-color: #340e41;
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+.image-container {
+  position: relative;
+ 
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding-bottom: 20px;
+}
+
+.text-overlay {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+.btn-outline-custom {
+  border-color: #6f1fd6;
+  color: #6f1fd6;
+}
+
+.btn-outline-custom:hover {
+  background-color: #6f1fd6;
+  color: #ffffff;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* tampilkan overlay saat hover */
+}
+
+.border-ungu {
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.card-img-top:hover .position-absolute {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.position-absolute {
+  opacity: 0;
+}
+
+
+.chevron {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale3d(0.5, 0.5, 0.5);
+  width: 28px;
+  height: 2px;
+  opacity: 0;
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+ 
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #6f1fd6; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #6f1fd6 }
+}
