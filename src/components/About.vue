@@ -14,7 +14,7 @@
                     </div>
                      <div data-aos="fade-up">
                     <div class="mt-3">
-                       <a href="/Reynato-M-CV.pdf" target="_blank" rel="noopener" class="btn btn-purple btn-sm m-2 py-2 px-4">
+                       <a href="/Reynato-M-CV (31).pdf" target="_blank" rel="noopener" class="btn btn-purple btn-sm m-2 py-2 px-4">
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up m-1" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1z"/>
   <path fill-rule="evenodd" d="M7.646.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 1.707V10.5a.5.5 0 0 1-1 0V1.707L5.354 3.854a.5.5 0 1 1-.708-.708z"/>
@@ -74,7 +74,7 @@
         <div class="tab-pane fade show active  " id="home">
             <h4 class="mt-2 text-center">About Me</h4>
             <p class="text-start">
-              Hello, I'm Reynato Muliawan a fresh graduate in Information System with a interest in front-end development and UI/UX design.  I'm excited to start my career in the tech industry and bring my skills and knowledge to create innovative digital solutions. I have a solid skills in HTML, CSS, PHP, JavaScript, Vue, React, Figma, Bootstrap and Git.
+              Hello, I'm Reynato Muliawan a fresh graduate in Information System with a interest in front-end development and UI/UX design.  I'm excited to start my career in the tech industry and bring my skills and knowledge to create innovative digital solutions. I have a solid skills in HTML, CSS, PHP, JavaScript, Vue, React, Figma, Bootstrap, Tailwind CSS, Postman, REST API. Github and Git.
 
             </p>
         

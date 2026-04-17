@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 mt-4">
-        <b><p>&copy; 2025 Reynato Muliawan.</p></b>
+        <b><p>&copy; {{ new Date().getFullYear() }} Reynato Muliawan.</p></b>
       </div>
       <div class="col-md-6 text-end">
          <div class="m-1 "> 

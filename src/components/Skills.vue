@@ -7,8 +7,8 @@
       <div class="p-3 border-0 bg-custom rounded">
         <div class="zoom"> 
         <figure>
-          <img class="rounded" src="/vite.svg" alt="icon" width="100" height="100">
-          <figcaption>Vite</figcaption>
+          <img class="rounded" src="https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" alt="icon" width="100" height="100">
+          <figcaption>Postman</figcaption>
         </figure>
         </div>
       </div>
@@ -37,8 +37,8 @@
       <div class="p-3 border-0 bg-custom rounded">
         <div class="zoom"> 
         <figure>
-          <img class="rounded" src="https://www.svgrepo.com/show/354513/vercel-icon.svg" alt="icon" width="100" height="100">
-          <figcaption>Vercel</figcaption>
+          <img class="rounded" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="icon" width="100" height="100">
+          <figcaption>Tailwind CSS</figcaption>
         </figure>
         </div>
       </div>
